@@ -56,7 +56,7 @@ Email: ${encodeURIComponent(userData.email)}
 Phone: ${encodeURIComponent(userData.phone)} 
 Please help me confirm my payment and activate my account.`;
 
-  const whatsappURL = `https://wa.me/2348128373375?text=${message}`;
+  const whatsappURL = `https://wa.me/2347058557447?text=${message}`;
   window.open(whatsappURL, '_blank');
 
   // Optional: Reset form after redirect
@@ -70,6 +70,6 @@ Please help me confirm my payment and activate my account.`;
 contactSupport.addEventListener('click', (e) => {
   e.preventDefault();
   const supportMessage = `Hello Tapify Support, I have just registered and would like some assistance.`;
-  const supportURL = `https://t.me/Moneymint3?text=${encodeURIComponent(supportMessage)}`;
+  const supportURL = `https://wa.me/2347058557447?text=${encodeURIComponent(supportMessage)}`;
   window.open(supportURL, '_blank');
 });
